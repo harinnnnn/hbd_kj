@@ -6,8 +6,8 @@
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  /*--background-start-rgb: 214, 219, 220;*/
+  /*--background-end-rgb: 255, 255, 255;*/
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -38,6 +38,25 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+}
+
+@font-face {
+  font-family: 'PyeongChangPeace-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face{
+  font-family:'bitbit';
+  src:url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'),url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2') ;
+}
+
+@font-face {
+  font-family: 'EF_jejudoldam';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @media (prefers-color-scheme: dark) {
