@@ -1,23 +1,71 @@
 "use client";
+import React from "react";
 
 // Styles
-import { HistoryContainer } from "./styles";
+import { HistoryContainer, ScrollContainer } from "./styles";
+
+// Hooks
+import Item from "@/pages/history/Item";
 
 export default function Index() {
-  // TODO: 스크롤 내리면 이미지 하나씩 애니메이션으로 등장하도록 ㅎ
+  const items = [
+    {
+      description: "👶🏻 baby kyukyu",
+      direction: "left",
+      ref: React.useRef<HTMLDivElement | null>(null),
+    },
+    {
+      description: "👶🏻 child kyukyu",
+      direction: "right",
+      ref: React.useRef<HTMLDivElement | null>(null),
+    },
+    {
+      description: "👶🏻 cute",
+      direction: "left",
+      ref: React.useRef<HTMLDivElement | null>(null),
+    },
+    {
+      description: "😎👶🏻",
+      direction: "right",
+      ref: React.useRef<HTMLDivElement | null>(null),
+    },
+    {
+      description: "student kyujin",
+      direction: "left",
+      ref: React.useRef<HTMLDivElement | null>(null),
+    },
+    {
+      description: "🧔🏻‍♀️ Sanchez 🌮",
+      direction: "right",
+      ref: React.useRef<HTMLDivElement | null>(null),
+    },
+    {
+      description: "😎 ",
+      direction: "left",
+      ref: React.useRef<HTMLDivElement | null>(null),
+    },
+    {
+      description: "😎 now",
+      direction: "right",
+      ref: React.useRef<HTMLDivElement | null>(null),
+    },
+  ];
+
   return (
     <HistoryContainer>
-      <div className={"history__title"}>History of kyujin</div>
-      {/*<div className={"history__title"}>💟 History of kyujin 💟</div>*/}
       💘💝😋🥰🥳🤩🐔🐰🐓🍀
-      <img src="/assets/img/history-1.jpeg" alt="history 1 img" />
-      <img src="/assets/img/history-2.jpeg" alt="history 2 img" />
-      <img src="/assets/img/history-3.jpeg" alt="history 3 img" />
-      <img src="/assets/img/history-4.jpeg" alt="history 4 img" />
-      <img src="/assets/img/history-5.jpeg" alt="history 5 img" />
-      <img src="/assets/img/history-6.jpeg" alt="history 6 img" />
-      <img src="/assets/img/history-7.jpeg" alt="history 7 img" />
-      <img src="/assets/img/history-8.jpeg" alt="history 8 img" />
+      <div className={"history__title"}>History of kyujin</div>
+      {items.map((item, index) => {
+        return (
+          <Item
+            scrollRef={item.ref}
+            direction={item.direction}
+            description={item.description}
+            src={`/assets/img/history-${index + 1}.jpeg`}
+            key={`history-picture__${index + 1}`}
+          />
+        );
+      })}
     </HistoryContainer>
   );
 }
