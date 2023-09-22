@@ -2,43 +2,34 @@ import styled from "@emotion/styled";
 
 export const PresentContainer = styled.section`
   height: 100vh;
-  padding: 30px;
+  padding: 100px 50px;
+  background: beige;
 
   & > .present__text {
-    font-size: 32px;
-    font-family: "Pretendard-Regular";
+    font-size: 46px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "PyeongChangPeace-Bold";
   }
 
   & > .present__container {
-    text-align: center;
-    position: relative;
+    width: 100%;
     margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
 
     & > img {
-      width: 200px;
-      position: absolute;
-    }
-
-    & > .present__balloons {
-      left: 0;
-    }
-
-    & > .present__left {
       width: 300px;
-      left: 20%;
-      top: 100px;
-    }
+      cursor: pointer;
+      transition: all 0.3s ease-out;
 
-    & > .present__middle {
-      width: 300px;
-      left: 50%;
-      transform: translate(-50%);
-    }
+      &:nth-of-type(2) {
+        margin-bottom: 20px;
+      }
 
-    & > .present__right {
-      width: 300px;
-      right: 20%;
-      top: 100px;
+      &:hover {
+        transform: translateY(-50px);
+      }
     }
   }
 `;
