@@ -3,7 +3,7 @@ import React, { useCallback, useRef } from "react";
 import Webcam from "react-webcam";
 
 // Styles
-import { HistoryContainer } from "./styles";
+import { PhotoContainer } from "./styles";
 
 export default function Index() {
   const webcamRef = useRef<Webcam>(null);
@@ -26,7 +26,7 @@ export default function Index() {
   };
 
   return (
-    <HistoryContainer>
+    <PhotoContainer>
       <div className={"title"}>★ welcome to rin's photobooth ★</div>
 
       <div className={"polaroid__template"}>
@@ -44,6 +44,6 @@ export default function Index() {
         width={70}
         onClick={capture}
       />
-    </HistoryContainer>
+    </PhotoContainer>
   );
 }

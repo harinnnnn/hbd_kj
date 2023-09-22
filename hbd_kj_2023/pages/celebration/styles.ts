@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 
-export const PhotoContainer = styled.section`
+export const CelebrationContainer = styled.section`
   height: 100vh;
   padding-top: 50px;
   text-align: center;
