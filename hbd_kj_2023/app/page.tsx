@@ -7,6 +7,7 @@ import { HbdContainer } from "@/app/styles";
 import Main from "../pages/main";
 import History from "../pages/history";
 import Present from "../pages/present";
+import Photobooth from "../pages/photobooth";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Main />
       <History />
       <Present />
+      <Photobooth />
     </HbdContainer>
   );
 }
