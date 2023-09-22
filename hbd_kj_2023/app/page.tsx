@@ -18,6 +18,12 @@ export default function Home() {
       <Present />
       <Photobooth />
       <Celebration />
+      <div className={"footer"}>
+        <div className={"line"}>♡✧。°₊·ˈ∗♡∗ˈ‧₊°。✧♡♡✧。°₊·ˈ∗♡∗ˈ‧₊°。✧♡</div>
+        Lots of love for your birthday!
+        <div className={"developer"}>made by harin</div>
+        <div className={"line"}>♡✧。°₊·ˈ∗♡∗ˈ‧₊°。✧♡♡✧。°₊·ˈ∗♡∗ˈ‧₊°。✧♡</div>
+      </div>
     </HbdContainer>
   );
 }
