@@ -19,15 +19,17 @@ export default function Index() {
   return (
     <CelebrationContainer>
       <div className={"title"}>🎸🪩 Special Stage 🎸🪩</div>
-      🐓
+
       <div className={"emoji emoji1"}>🎂</div>
       <div className={"emoji emoji2"}>🍀</div>
       <div className={"emoji emoji3"}>🐰</div>
       <div className={"emoji emoji4"}>✧</div>
+
       <div className={"emoji emoji5"}>🥳</div>
       <div className={"emoji emoji6"}>✪</div>
       <div className={"emoji emoji7"}>❤️</div>
       <div className={"emoji emoji8"}>🐓</div>
+
       <div className={"youtube__player"}>
         <YouTube
           videoId={"AWrXKyFzg0o"}

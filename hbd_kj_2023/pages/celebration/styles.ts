@@ -54,6 +54,6 @@ export const CelebrationContainer = styled.section`
   }
 
   & > .youtube__player {
-    margin-top: 60px;
+    margin-top: 70px;
   }
 `;
