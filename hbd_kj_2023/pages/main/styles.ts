@@ -9,7 +9,6 @@ export const TextCakeContainer = styled.section`
   //font-family: bitbit;
   font-family: EF_jejudoldam;
   background-image: url("/assets/bg/bg-confetti.gif");
-  //background-repeat: no-repeat;
   background-size: 140%;
 
   & > .text-cake__candles {

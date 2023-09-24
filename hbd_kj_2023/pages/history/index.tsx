@@ -20,7 +20,7 @@ export default function Index() {
       ref: React.useRef<HTMLDivElement | null>(null),
     },
     {
-      description: "👶🏻 cute",
+      description: "👶🏻 child kyukyu 2",
       direction: "left",
       ref: React.useRef<HTMLDivElement | null>(null),
     },
@@ -30,7 +30,7 @@ export default function Index() {
       ref: React.useRef<HTMLDivElement | null>(null),
     },
     {
-      description: "student kyujin",
+      description: "👦🏻 student kyujin",
       direction: "left",
       ref: React.useRef<HTMLDivElement | null>(null),
     },
@@ -40,7 +40,7 @@ export default function Index() {
       ref: React.useRef<HTMLDivElement | null>(null),
     },
     {
-      description: "😎 ",
+      description: "😎 college student",
       direction: "left",
       ref: React.useRef<HTMLDivElement | null>(null),
     },
@@ -53,8 +53,21 @@ export default function Index() {
 
   return (
     <HistoryContainer>
-      💘💝😋🥰🥳🤩🐔🐰🐓🍀
       <div className={"history__title"}>History of kyujin</div>
+      <div className={"emoji emoji1"}>💘</div>
+      <div className={"emoji emoji2"}>😋</div>
+      <div className={"emoji emoji3"}>💝</div>
+      <div className={"emoji emoji4"}>🥰</div>
+      <div className={"emoji emoji5"}>🥳</div>
+      <div className={"emoji emoji6"}>🤩</div>
+      <div className={"emoji emoji7"}>🐔</div>
+      <div className={"emoji emoji8"}>🐰</div>
+      <div className={"emoji emoji9"}>🐓</div>
+      <div className={"emoji emoji10"}>🍀</div>
+      <div className={"emoji emoji11"}>🎂</div>
+      <div className={"emoji emoji12"}>💟</div>
+      <div className={"emoji emoji13"}>💐</div>
+      <div className={"emoji emoji14"}>✨</div>
       {items.map((item, index) => {
         return (
           <Item

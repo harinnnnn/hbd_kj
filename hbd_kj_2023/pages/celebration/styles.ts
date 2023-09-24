@@ -3,12 +3,13 @@ import styled from "@emotion/styled";
 export const CelebrationContainer = styled.section`
   height: 100vh;
   padding-top: 50px;
-  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: lightgoldenrodyellow;
   position: relative;
+  text-align: center;
+  background: lightgoldenrodyellow;
+  background: linear-gradient(aliceblue, lightgoldenrodyellow);
 
   & > .title {
     font-size: 60px;

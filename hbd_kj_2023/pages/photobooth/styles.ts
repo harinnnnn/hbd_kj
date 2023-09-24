@@ -4,10 +4,10 @@ export const PhotoContainer = styled.section`
   height: 100vh;
   padding-top: 50px;
   text-align: center;
-  background: aliceblue;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: linear-gradient(beige, aliceblue);
 
   & > .title {
     font-size: 30px;

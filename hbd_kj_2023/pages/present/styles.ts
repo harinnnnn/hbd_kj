@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 export const PresentContainer = styled.section`
   height: 100vh;
   padding: 100px 50px;
-  background: beige;
+  background: linear-gradient(#fef3f5, beige);
 
   & > .present__text {
     font-size: 46px;
