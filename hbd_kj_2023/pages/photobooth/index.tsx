@@ -3,7 +3,7 @@ import React, { useCallback, useRef } from "react";
 import Webcam from "react-webcam";
 
 // Styles
-import { PhotoContainer } from "./styles";
+import { PhotoContainer } from "@/styles/PhotoboothStyles";
 
 const Index = () => {
   const webcamRef = useRef<Webcam>(null);

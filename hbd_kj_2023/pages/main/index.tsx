@@ -1,7 +1,7 @@
 "use client";
 
 // Styles
-import { TextCakeContainer } from "./styles";
+import { TextCakeContainer } from "@/styles/MainStyles";
 
 const Index = () => {
   return (

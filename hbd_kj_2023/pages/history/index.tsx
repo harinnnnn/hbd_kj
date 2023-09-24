@@ -2,7 +2,7 @@
 import React from "react";
 
 // Styles
-import { HistoryContainer, ScrollContainer } from "./styles";
+import { HistoryContainer } from "@/styles/HistoryStyles";
 
 // Hooks
 import Item from "@/pages/history/Item";

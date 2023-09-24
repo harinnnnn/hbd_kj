@@ -1,7 +1,7 @@
 "use client";
 
 // Styles
-import { ScrollContainer } from "./styles";
+import { ScrollContainer } from "@/styles/HistoryStyles";
 
 // Hooks
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";

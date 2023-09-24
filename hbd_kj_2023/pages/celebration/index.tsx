@@ -3,7 +3,7 @@ import React from "react";
 import YouTube, { YouTubeProps } from "react-youtube";
 
 // Styles
-import { CelebrationContainer } from "./styles";
+import { CelebrationContainer } from "@/styles/CelebrationStyles";
 
 const Index = () => {
   const onPlayerReady: YouTubeProps["onReady"] = (event) => {

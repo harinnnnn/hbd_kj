@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 // Styles
-import { PresentContainer } from "./styles";
+import { PresentContainer } from "@/styles/PresentStyles";
 
 // Components
 import Modal from "../../components/Modal";
