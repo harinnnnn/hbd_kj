@@ -27,7 +27,7 @@ export default function Index() {
 
   return (
     <PhotoContainer>
-      <div className={"title"}>★ welcome to rin's photobooth ★</div>
+      <div className={"title"}>★ welcome to rin&apos;s photobooth ★</div>
 
       <div className={"polaroid__template"}>
         <Webcam audio={false} ref={webcamRef} screenshotFormat={"image/jpeg"} />
