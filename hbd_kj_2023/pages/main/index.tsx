@@ -3,7 +3,7 @@
 // Styles
 import { TextCakeContainer } from "./styles";
 
-export default function Index() {
+const Index = () => {
   return (
     <TextCakeContainer>
       <div className={"text-cake__candles"}>
@@ -15,4 +15,6 @@ export default function Index() {
       <div className={"text-cake__last-line"}>KYUJIN</div>
     </TextCakeContainer>
   );
-}
+};
+
+export default Index;

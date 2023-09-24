@@ -5,7 +5,7 @@ import YouTube, { YouTubeProps } from "react-youtube";
 // Styles
 import { CelebrationContainer } from "./styles";
 
-export default function Index() {
+const Index = () => {
   const onPlayerReady: YouTubeProps["onReady"] = (event) => {
     event.target.pauseVideo();
   };
@@ -39,4 +39,6 @@ export default function Index() {
       </div>
     </CelebrationContainer>
   );
-}
+};
+
+export default Index;

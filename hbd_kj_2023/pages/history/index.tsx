@@ -7,7 +7,7 @@ import { HistoryContainer, ScrollContainer } from "./styles";
 // Hooks
 import Item from "@/pages/history/Item";
 
-export default function Index() {
+const Index = () => {
   const items = [
     {
       description: "👶🏻 baby kyukyu",
@@ -81,4 +81,6 @@ export default function Index() {
       })}
     </HistoryContainer>
   );
-}
+};
+
+export default Index;

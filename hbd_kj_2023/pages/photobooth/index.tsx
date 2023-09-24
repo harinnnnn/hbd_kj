@@ -5,7 +5,7 @@ import Webcam from "react-webcam";
 // Styles
 import { PhotoContainer } from "./styles";
 
-export default function Index() {
+const Index = () => {
   const webcamRef = useRef<Webcam>(null);
 
   const capture = useCallback(() => {
@@ -46,4 +46,6 @@ export default function Index() {
       />
     </PhotoContainer>
   );
-}
+};
+
+export default Index;

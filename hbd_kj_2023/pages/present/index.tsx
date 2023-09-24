@@ -11,7 +11,7 @@ export interface ModalState<Content> {
   isOpen: boolean;
   content: Content | null;
 }
-export default function Index() {
+const Index = () => {
   const [modal, setModal] = useState<ModalState<JSX.Element>>({
     isOpen: false,
     content: null,
@@ -78,4 +78,6 @@ export default function Index() {
       </div>
     </PresentContainer>
   );
-}
+};
+
+export default Index;

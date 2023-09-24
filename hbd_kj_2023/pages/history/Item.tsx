@@ -5,6 +5,7 @@ import { ScrollContainer } from "./styles";
 
 // Hooks
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import Index from "@/pages/history/index";
 
 type props = {
   scrollRef: any;
@@ -12,12 +13,7 @@ type props = {
   direction: string;
   src: string;
 };
-export default function Item({
-  scrollRef,
-  description,
-  src,
-  direction,
-}: props) {
+const Item = ({ scrollRef, description, src, direction }: props) => {
   const { isInViewport } = useScrollAnimation({ scrollRef });
 
   // isInViewport가 true가 되면 ScrollContainer의 className에 frame-in을 삽입
@@ -30,4 +26,6 @@ export default function Item({
       <img src={src} alt="history 4 img" width={600} />
     </ScrollContainer>
   );
-}
+};
+
+export default Item;
