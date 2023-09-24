@@ -1,12 +1,11 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 // Styles
 import { PresentContainer } from "./styles";
 
 // Components
 import Modal from "../../components/Modal";
-import { getImgProps } from "next/dist/shared/lib/get-img-props";
 
 export interface ModalState<Content> {
   isOpen: boolean;
@@ -31,7 +30,18 @@ export default function Index() {
         <img
           src="/assets/img/ico-present-with-heart.png"
           alt="history 1 img"
-          onClick={() => alert("기프티콘")}
+          onClick={() =>
+            setModal({
+              isOpen: true,
+              content: (
+                <img
+                  src={"/assets/img/ico-bd-cake.jpeg"}
+                  alt={"cake"}
+                  width={400}
+                />
+              ),
+            })
+          }
         />
         <img
           src="/assets/img/ico-cake.png"
@@ -52,7 +62,18 @@ export default function Index() {
         <img
           src="/assets/img/ico-present.png"
           alt="history 2 img"
-          onClick={() => alert("내 샤진 ㅎ")}
+          onClick={() =>
+            setModal({
+              isOpen: true,
+              content: (
+                <img
+                  src={"/assets/img/ico-harin.jpg"}
+                  alt={"rin"}
+                  width={400}
+                />
+              ),
+            })
+          }
         />
       </div>
     </PresentContainer>
