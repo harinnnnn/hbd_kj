@@ -1,21 +1,40 @@
 "use client";
-import React, { useCallback, useEffect, useRef } from "react";
-import Webcam from "react-webcam";
+import React from "react";
+import YouTube, { YouTubeProps } from "react-youtube";
 
 // Styles
 import { CelebrationContainer } from "./styles";
 
 export default function Index() {
-  useEffect(() => {
-    const audio = new Audio("/song.mp3"); // 오디오 파일 경로 설정
-    // todo: 노래 다운 받아서 넣어야 함.. public 폴더에 저장
-    audio.play();
+  const onPlayerReady: YouTubeProps["onReady"] = (event) => {
+    event.target.pauseVideo();
+  };
 
-    return () => {
-      // 페이지를 떠날 때 오디오를 정리합니다.
-      audio.pause();
-      audio.currentTime = 0;
-    };
-  }, []);
-  return <CelebrationContainer>cake image</CelebrationContainer>;
+  const videoOpts: YouTubeProps["opts"] = {
+    width: "750",
+    height: "500",
+    playerVars: { autoplay: 1 },
+  };
+
+  return (
+    <CelebrationContainer>
+      <div className={"title"}>🎸🪩 Special Stage 🎸🪩</div>
+      🐓
+      <div className={"emoji emoji1"}>🎂</div>
+      <div className={"emoji emoji2"}>🍀</div>
+      <div className={"emoji emoji3"}>🐰</div>
+      <div className={"emoji emoji4"}>✧</div>
+      <div className={"emoji emoji5"}>🥳</div>
+      <div className={"emoji emoji6"}>✪</div>
+      <div className={"emoji emoji7"}>❤️</div>
+      <div className={"emoji emoji8"}>🐓</div>
+      <div className={"youtube__player"}>
+        <YouTube
+          videoId={"AWrXKyFzg0o"}
+          opts={videoOpts}
+          onReady={onPlayerReady}
+        />
+      </div>
+    </CelebrationContainer>
+  );
 }
