@@ -1,34 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎂 남자친구 생일 축하 사이트 🎂
 
-## Getting Started
 
-First, run the development server:
+- 개발 툴: Next, TypeScript, Emotion
+- 배포 툴: Vercel
+- 제작 의도: 흔하지 않은 생일 선물을 해주고자 고민하고 있었을 때, 우연히 어떤 분께서 친구 생일 사이트를 만들어주신 것을 보고 영감을 얻어 제작하게 되었습니다.
+(본 사이트에 남자친구의 사진이 여러 장 올라가 있는 관계로, 사이트 링크 대신 화면의 캡쳐 사진을 첨부하는 점 양해 부탁 드립니다.😅)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br /><br />
 
-You can start editing the page by modifying `app/index.tsx`. The page auto-updates as you edit the file.
+# 메인 화면
+![main](https://github.com/harinnnnn/hbd_kj/assets/53467524/a41e17ea-c6e6-4c00-a7c5-b82734d75259)
+<br />
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# 선물 증정 화면
+![present](https://github.com/harinnnnn/hbd_kj/assets/53467524/7d39e6c8-6680-4d98-a9c0-d8c7d1198a79)
+<br />
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# 생일 축하 노래(영상) 화면
+<img width="882" alt="image" src="https://github.com/harinnnnn/hbd_kj/assets/53467524/13581b47-025b-482e-9b5b-0b802831ac56">
