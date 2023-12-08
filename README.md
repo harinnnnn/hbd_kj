@@ -11,9 +11,11 @@
 
 # 메인 화면
 ![main](https://github.com/harinnnnn/hbd_kj/assets/53467524/a41e17ea-c6e6-4c00-a7c5-b82734d75259)
+<br />
 
 # 선물 증정 화면
 ![present](https://github.com/harinnnnn/hbd_kj/assets/53467524/7d39e6c8-6680-4d98-a9c0-d8c7d1198a79)
+<br />
 
 # 생일 축하 노래(영상) 화면
 <img width="882" alt="image" src="https://github.com/harinnnnn/hbd_kj/assets/53467524/13581b47-025b-482e-9b5b-0b802831ac56">
